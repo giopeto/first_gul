@@ -1,0 +1,32 @@
+$black : #000;
+$padding1 : 20px;
+$padding2 : 30px;
+
+.page {
+
+    &_inner {
+        background : $black;
+    }
+}
+
+div {
+	.inner_div {
+		padding: $padding2;
+	}
+
+	.inner_div2 {
+		padding: $padding2;
+	}
+
+	.inner_div3 {
+		padding: 40 px;
+	}
+
+	#inner_div4 {
+		margin: 50 px;
+	}
+}
+
+.asd {
+	margin: 60 px;
+}
